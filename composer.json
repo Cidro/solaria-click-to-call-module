@@ -1,0 +1,21 @@
+{
+    "name": "asimov/solaria/modules/clickToCall",
+    "description": "Click to Call para Sitio Gtd con CMS solaria",
+    "license": "MIT",
+    "keywords": ["click-to-call", "soporte", "solaria", "asimov"],
+    "authors": [
+        {
+            "name": "Pablo Canales",
+            "email": "pablo@asimov.cl"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asimov\\Solaria\\Modules\\ClickToCall\\": "src/"
+        }
+    }
+}
